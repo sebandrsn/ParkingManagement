@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.Api\\ParkingManagement.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.Api\\ParkingManagement.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.Api\\ParkingManagement.Api.csproj",
+        "projectName": "ParkingManagement.Api",
+        "projectPath": "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.Api\\ParkingManagement.Api.csproj",
+        "packagesPath": "C:\\Users\\Sebastian.Andersson\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sebastian.Andersson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/recopart/Recopart/_packaging/RecopartFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/recopart/Recopart/_packaging/recopart-portal-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.BL\\ParkingManagement.BL.csproj": {
+                "projectPath": "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.BL\\ParkingManagement.BL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.BL\\ParkingManagement.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.BL\\ParkingManagement.BL.csproj",
+        "projectName": "ParkingManagement.BL",
+        "projectPath": "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.BL\\ParkingManagement.BL.csproj",
+        "packagesPath": "C:\\Users\\Sebastian.Andersson\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sebastian.Andersson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/recopart/Recopart/_packaging/RecopartFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/recopart/Recopart/_packaging/recopart-portal-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.Domain\\ParkingManagement.Domain.csproj": {
+                "projectPath": "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.Domain\\ParkingManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.Domain\\ParkingManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.Domain\\ParkingManagement.Domain.csproj",
+        "projectName": "ParkingManagement.Domain",
+        "projectPath": "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.Domain\\ParkingManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Sebastian.Andersson\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\ParkingManagement\\ParkingManagement\\ParkingManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sebastian.Andersson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/recopart/Recopart/_packaging/RecopartFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/recopart/Recopart/_packaging/recopart-portal-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
